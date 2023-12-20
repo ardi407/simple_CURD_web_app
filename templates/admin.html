@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Database System</title>
+    <h1>Maintenance Database</h1>
+</head>
+
+<body>
+    <h2>Menu</h2>
+
+    <h3>Display all Employee Data</h3>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Email</th>
+        </tr>
+        <!-- Python script to display data in the table -->
+        {% for employee in employees %}
+        <tr>
+            <td>{{ employee[0] }}</td>
+            <td>{{ employee[1] }}</td>
+            <td>{{ employee[2] }}</td>
+            <td>{{ employee[3] }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+    <form id="display_data" action="/display_data" method="get">
+        <p><input type="submit" value='display'/></p>
+    </form>
+
+    <h3>Add Employee Data</h3>
+    <form action="/add_data" method="post">
+        <p>Name: <input type="text" name='nme'/></p>
+
+        <p>Position: <input type="text" name='position'/></p>
+
+        <p>Email: <input type="text" name='email'/></p>
+
+        <p><input type="submit" value='Submit'/></p>
+    </form>
+
+    <h3>Delete Employee Data</h3>
+    <form id="delete_employee" action="/delete_data" method="post">
+        <p>ID or Name: <input type="text" name="deleted_employee"/></p>
+        <p><input type="submit" value="delete"/></p>
+    </form>
+
+    <h3>Update Employee Data</h3>
+
+    <form id="update" action="/update_data" method="post">
+        <p>ID: <input type="text" name='id_update'/></p>
+
+        <p>Name: <input type="text" name='name_update'/></p>
+
+        <p>Position: <input type="text" name='position_update'/></p>
+
+        <p>Email: <input type="text" name='email_update'/></p>
+
+        <p><input type="submit" value="update"/></p>
+
+    </form>
+
+    <form id="logout_button" action="/" method="get">
+        <p><input type="submit" value='logout'/></p>
+    </form>
+
+</body>
+
+</html>
