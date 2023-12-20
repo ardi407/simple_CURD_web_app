@@ -8,9 +8,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -31,16 +28,15 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - Flask
 - SQLite
 
 ## Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/yourusername/employee-database-crud.git
+   git clone https://github.com/ardi407/simple_CURD_web_app.git
 2. Install flask and Sqlite3
    ```bash
    pip install flask
