@@ -48,10 +48,10 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
 4. Click the url on the output
 
 ## Screenshot
-Login Page
+Login Page <br>
 ![image](https://github.com/ardi407/simple_CURD_web_app/assets/144577146/f88a3ef8-6692-4ced-bf0c-59dadb75b8ef)
 
-Admin Page
+Admin Page <br>
 ![image](https://github.com/ardi407/simple_CURD_web_app/assets/144577146/f63e9597-7bcb-44ef-ac32-72d28294f786)
 
 
