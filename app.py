@@ -1,3 +1,18 @@
+"""
+A web application for interacting with a database that includes several features such as:
+
+Display data
+Add data
+Delete data
+Update data
+Note:
+
+- Flask and sqlite3 need to be installed before running the file.
+- Run the file in the terminal: python app.py
+- Open the localhost URL specified in the output.
+- A simple UI is created to facilitate interaction.
+"""
+
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 
