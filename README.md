@@ -8,6 +8,7 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#Screenshots)
 
 ## Features
 
@@ -45,4 +46,13 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing em
    ```bash
    python app.py
 4. Click the url on the output
+
+## Screenshot
+Login Page
+![image](https://github.com/ardi407/simple_CURD_web_app/assets/144577146/f88a3ef8-6692-4ced-bf0c-59dadb75b8ef)
+
+Admin Page
+![image](https://github.com/ardi407/simple_CURD_web_app/assets/144577146/f63e9597-7bcb-44ef-ac32-72d28294f786)
+
+
    
